@@ -1,0 +1,26 @@
+{
+  "name": "static-translation-utility",
+  "version": "1.0.0",
+  "description": "Utility files for extraction translate innertext and placeholder strings in html content",
+  "main": "node src/index.js ../../src/app/ false",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js ../../src/app/modules/jobs/pages/job-order/job-order-form/job-order-advertise true",
+    "run": "node src/index.js ../../src/app/modules/jobs/pages/job-order/job-order-form/job-order-advertise false"
+  },
+  "keywords": [
+    "utility",
+    "translation",
+    "ngx-translate"
+  ],
+  "author": "lakshmi.hariharan@randstadusa.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^1.2.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "node-html-parser": "^1.2.6",
+    "nodemon": "^1.19.0"
+  }
+}
