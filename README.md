@@ -22,7 +22,7 @@ with variables.
 Usage: 
 
 npm install
-node src/index.js <ANGULAR_SRC_FOLDER_PATH> <BOOLEAN>
+node src/index.js <ANGULAR_SRC_FOLDER_PATH> <REPLACE_OPTION>
   
   The first argument is the ANGULAR Source folder path as a string. It can be a relative path as well.
   The second argument is a boolean which specifies whether the angular template files needs to be replaced
